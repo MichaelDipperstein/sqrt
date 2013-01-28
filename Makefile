@@ -1,7 +1,7 @@
 # Makefile for square root sample.exe
 CC = gcc
 LD = gcc
-CFLAGS = -O2 -Wall -pedantic -ansi -c
+CFLAGS = -O2 -Wall -Wextra -pedantic -ansi -c
 LDFLAGS = -lm -O2 -o
 
 # Treat NT and non-NT windows the same

@@ -80,7 +80,7 @@ int ENIACSqrt(unsigned long value, float *lowerBound, float *upperBound)
     long remaining;
 
     /* check for valid input value */
-    if ((value < 0) || (value > (LONG_MAX / SQRT_VALUE_MULTIPLIER)))
+    if (value > (LONG_MAX / SQRT_VALUE_MULTIPLIER))
     {
         errno = EDOM;
         return (-1);
@@ -144,7 +144,7 @@ float ENIACSqrtInterpolated(unsigned long value)
     float delta;
 
     /* check for valid input value */
-    if ((value < 0) || (value > (LONG_MAX / SQRT_VALUE_MULTIPLIER)))
+    if (value > (LONG_MAX / SQRT_VALUE_MULTIPLIER))
     {
         errno = EDOM;
         return (-1.0);

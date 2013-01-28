@@ -2,7 +2,7 @@
 *                Sample usage of Square Root Package Usage
 *
 *   File    : sample.c
-*   Purpose : Demonstartes usage of square root algorithms
+*   Purpose : Demonstrates usage of square root algorithms
 *   Author  : Michael Dipperstein
 *   Date    : August 1, 2003
 *
