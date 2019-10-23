@@ -18,7 +18,7 @@
 ****************************************************************************
 * Sample: Square root collection sample usage and time tests
 * Copyright (C) 2003, 2007 by
-*       Michael Dipperstein (mdipper@alumni.engr.ucsb.edu)
+*       Michael Dipperstein (mdipperstein@gmail.com)
 *
 * This file is part of the square root collection.
 *
